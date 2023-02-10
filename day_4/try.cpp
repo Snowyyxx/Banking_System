@@ -14,10 +14,10 @@ Return Codes:
 
 
 class SavingBankAccount{ //Creating a class for bank-accounts;
-
+    int atm_pin,account_number,balance;
     //friend class Customer; // dimaag kharab hogaya bhai
     public: // various functions needed for a bare bones atm machine;
-    int atm_pin,account_number,balance;
+    friend class Customer;
     int display_balance();
     int debit();
     int credit();
