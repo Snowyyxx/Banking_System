@@ -30,9 +30,11 @@ class SavingBankAccount{ //Creating a class for bank-accounts;
 class Customer{
     public:
     int NumberOfAccounts;
+    string CustomerName;
+    int CustomerAge;
     class SavingBankAccount customer_accounts[]; // This means that if a structure contains only a flexible array member, it will have no size and cannot be used to allocate memory or create instances of the structure. To work around this limitation, you can add one or more other members to the structure, even if they are not needed for your specific use case.
-    Customer(int i_NumberOfAccounts):NumberOfAccounts(i_NumberOfAccounts){
-        for(int i =0;i<NumberOfAccounts;i++){
+    Customer(int i_NumberOfAccounts,string i_name,int i_age):NumberOfAccounts(i_NumberOfAccounts),CustomerAge(i_age),CustomerName(i_name){
+        for(int i =0;i<NumberOfAccounts;i++){ // Constructor -> num_accounts,name,age ;
             cout<<"Enter Detail for "<<i+1<<"th"<<" account:"<<endl;
             cout<<"ATM Pin for "<<i+1<<"th"<<" account: ";
             cin>>customer_accounts[i].atm_pin;
@@ -114,6 +116,6 @@ int main()
 
 {
     class SavingBankAccount b1(9103,123456,10000); // pin = 9103;
-    class Customer c1(2);
+    class Customer c1(2,"aditya",19);
     c1.customer_accounts[1].display_balance();
 }
