@@ -1,0 +1,7 @@
+﻿  TradingPlatform.cpp
+C:\Users\adity\Documents\GitHub\thousand_day_challenge\day_13\TradingPlatform\TradingPlatform\SavingBank.h(75): warning C4715: 'SavingBankAccount::credit': not all control paths return a value
+C:\Users\adity\Documents\GitHub\thousand_day_challenge\day_13\TradingPlatform\TradingPlatform\SavingBank.h(53): warning C4715: 'SavingBankAccount::change_pin': not all control paths return a value
+C:\Users\adity\Documents\GitHub\thousand_day_challenge\day_13\TradingPlatform\TradingPlatform\SavingBank.h(61): warning C4715: 'SavingBankAccount::display_balance': not all control paths return a value
+C:\Users\adity\Documents\GitHub\thousand_day_challenge\day_13\TradingPlatform\TradingPlatform\SavingBank.h(94): warning C4715: 'SavingBankAccount::debit': not all control paths return a value
+C:\Users\adity\Documents\GitHub\thousand_day_challenge\day_13\TradingPlatform\TradingPlatform\DematAccount.h(34): warning C4715: 'DematAccount::check_account_open': not all control paths return a value
+  TradingPlatform.vcxproj -> C:\Users\adity\Documents\GitHub\thousand_day_challenge\day_13\TradingPlatform\Debug\TradingPlatform.exe
